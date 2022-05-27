@@ -5,7 +5,7 @@
     <title>Homework 4</title>
     <style>
         body {
-            color:rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
             background-color: rgb(0, 0, 0);
             font-family: 'Lato', sans-serif;
             /* If Lato not available, use sans-serif */
@@ -16,7 +16,7 @@
         .titlebox {
             height: 20vh;
             /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
-            text-align: center;           
+            text-align: center;
         }
 
         .container {
@@ -36,14 +36,17 @@
             /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
             align-items: center;
             /* vertically center */
+
+            text-align: center;
+            border: 1px rgb(0, 0, 0) solid;
+            border-left-color: rgb(255, 255, 255);
             border-right-color: rgb(255, 255, 255);
-            text-align: center; 
         }
 
         .box div {
             /* All the div under .box */
             width: 100%;
-            
+
         }
 
         #box2 {
@@ -51,14 +54,17 @@
             background-image: url("images/unsplash.jpg");
             background-size: cover;
             background-position: center center;
-            
+            border: 1px rgb(0, 0, 0) solid;
+            border-right-color: rgb(255, 255, 255);
+
+
+
         }
 
         h1 {
             padding: 10px;
-            border: 1px rgb(0, 0, 0) solid;
-            border-left-color: rgb(255, 255, 255);
-            border-right-color: rgb(255, 255, 255);
+
+            
         }
 
         p {
@@ -66,10 +72,9 @@
             font-weight: lighter;
         }
 
-        .p1{
+        .p1 {
             font-weight: bolder;
         }
-
     </style>
     <!-- this is HTML Comment 
          The 2 lines below is to install Google Fonts. 
@@ -94,7 +99,7 @@
             </h1>
         </div>
 
-        <div id="box2" class="box">
+        <div id="box2" class="box2">
             <div><img src="../exercise2/images/hw4-1.png" /> </div>
         </div>
 
@@ -103,4 +108,3 @@
 </body>
 
 </html>
-
