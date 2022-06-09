@@ -58,11 +58,32 @@ h1 {
     width: 50%;
 }
 
-@media screen and (max-width: 600px) {
+.footerp{
+    display: flex;
+}
+
+.footer{
+    background-color :#F1F1F1;
+    width: 25%;
+}
+
+
+@media screen and (max-width: 480px) {
     .row {
         flex-direction: column;
     }
+
     .column {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 50%;
     }
 }
