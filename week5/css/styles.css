@@ -3,3 +3,9 @@
     max-width: 1024px;
     margin: auto;
 }
+
+.header{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
