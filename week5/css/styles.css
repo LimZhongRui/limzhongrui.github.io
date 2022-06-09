@@ -82,8 +82,14 @@ h1 {
     .row {
         flex-wrap: wrap;
     }
-
     .column {
         width: 50%;
+    }
+    .footerp{
+        flex-direction: column;
+    }
+    
+    .footer{
+        width: 100%;
     }
 }
