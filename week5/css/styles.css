@@ -50,10 +50,19 @@ h1 {
 }
 
 .column {
-    background-color: rgb(255, 255, 255,0.3);
+    background-color: rgb(255, 255, 255, 0.3);
     width: 25%;
 }
 
 #column1 {
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+    }
 }
