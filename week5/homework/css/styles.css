@@ -61,28 +61,37 @@
     text-align: center;
 }
 
-#box1{
+#box1 {
     background-color: rgb(255, 255, 255, 0.5);
     width: 75%;
     margin: 5px 5px;
     text-align: center;
 }
 
-#box2{
+#box2 {
     background-color: rgb(255, 255, 255, 0.5);
     width: 25%;
     margin: 5px 5px;
     text-align: center;
 }
 
-.footer{
-    background-color :rgb(255, 255, 255, 0.5);
+.footer {
+    background-color: rgb(255, 255, 255, 0.5);
     width: 90%;
     text-align: center;
     margin-left: 5%;
 }
 
-
-#footer1{
+#footer1 {
     padding: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
 }
