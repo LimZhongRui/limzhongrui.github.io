@@ -11,6 +11,42 @@
     align-items: center;
 }
 
+.center {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}
+
+#center {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main,
+#right {
+    width: 50%;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.box{
+    width: 75%;
+    margin: 5px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.menu{
+    width: 25%;
+    margin: 5px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+#footer{
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 .topnav {
     display: flex;
     background-color: rgb(64, 226, 255);
