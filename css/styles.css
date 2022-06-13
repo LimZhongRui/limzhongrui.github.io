@@ -12488,7 +12488,7 @@ header.masthead .h1 {
 
 }
 
-.aboutme{
+.aboutme {
   position: relative;
   width: 25%;
   margin: auto;
@@ -12508,7 +12508,7 @@ header.masthead .h1 {
   -ms-transform: translate(-50%, -50%);
 }
 
-#transition{
+#transition {
   width: 50px;
   height: 50px;
   background-image: url("../image/logo.png");
@@ -12518,4 +12518,23 @@ header.masthead .h1 {
 
 #transition:hover {
   width: 100px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 10px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
