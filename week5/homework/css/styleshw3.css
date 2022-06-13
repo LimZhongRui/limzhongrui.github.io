@@ -40,83 +40,19 @@
     width: 25%;
     margin: 5px;
     background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
 }
 
 #footer{
     margin: 5px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.topnav {
-    display: flex;
-    background-color: rgb(64, 226, 255);
-    justify-content: left;
-}
-
-.topnav a {
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    /*width: 200px;*/
-}
-
-.topnav a:hover {
-    background-color: rgb(221, 221, 221);
-    color: rgb(185, 16, 211);
-    text-decoration: double;
-}
-
-.slideshow-container {
-    max-width: 1024spx;
-    position: relative;
-    margin: auto;
-}
-
-.text {
-    color: aliceblue;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 2px;
-    width: 100%;
+p{
     text-align: center;
 }
 
-.row {
-    display: flex;
-}
-
-.column {
-    background-color: rgb(255, 255, 255, 0.5);
-    width: 25%;
-    margin: 5px 5px;
-    text-align: center;
-}
-
-#box1 {
-    background-color: rgb(255, 255, 255, 0.5);
-    width: 75%;
-    margin: 5px 5px;
-    text-align: center;
-}
-
-#box2 {
-    background-color: rgb(255, 255, 255, 0.5);
-    width: 25%;
-    margin: 5px 5px;
-    text-align: center;
-}
-
-.footer {
-    background-color: rgb(255, 255, 255, 0.5);
-    width: 90%;
-    text-align: center;
-    margin-left: 5%;
-}
-
-#footer1 {
-    padding: 3px;
-}
 
 @media screen and (max-width: 600px) {
     .row {
