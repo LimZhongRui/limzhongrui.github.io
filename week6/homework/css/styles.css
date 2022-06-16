@@ -1,14 +1,56 @@
 .logo {
     grid-area: logo;
+    display: flex;
+}
+
+.logo img {
+    max-width: 15%;
+    height: auto;
+    padding: 0 5%;
+}
+
+.logo h3 {
+    padding: 0 10%;
 }
 
 .blog {
     grid-area: blog;
 }
 
+.menu1 {
+    grid-area: home;
+}
+
+.menu2 {
+    grid-area: menu_services;
+}
+
+.menu3 {
+    grid-area: menu_prices;
+}
+
+.menu4 {
+    grid-area: menu_contact;
+}
+
 .menu {
     grid-area: menu;
+    display: grid;
+    grid-template-areas:
+        'home menu_services menu_prices menu_contact';
+    gap: 10px;
+    background-color: #0055ff;
+    padding: 10px;
+    text-transform: uppercase;
 }
+
+.menu>div {
+    
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
 
 .slideshow {
     grid-area: slideshow;
@@ -237,7 +279,6 @@
 #container>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+    padding: 10px 0;
+    font-size: 20px;
 }
-
