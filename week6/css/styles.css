@@ -1,0 +1,109 @@
+body {
+    background-color: #717477ba;
+}
+
+#container {
+    background-color: #717477ba;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    color: rgb(255, 0, 0);
+    padding: 14px 16px;
+}
+
+#menu {
+    padding: 14px 16px;
+    display: flex;
+    justify-content: right;
+
+}
+
+#menu a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+#content {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    max-height: 2000px;
+    opacity: 0.5;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.subcenter {
+    position: absolute;
+    left: 40%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.icon {
+    display: flex;
+}
+
+.autor {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.autor img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.name {
+    padding: 10px;
+}
+
+#nextstory {
+    border-radius: 10%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 100px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.582);
+    padding: 20px;
+    border-style: dotted;
+}
+
+#nextstory a {
+    color: rgba(255, 0, 0, 0.582);
+    text-transform: uppercase;
+    text-decoration: none;
+}
