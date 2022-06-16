@@ -135,3 +135,24 @@
     padding: 20px 0;
     font-size: 30px;
 }
+
+#container {
+    display: grid;
+    grid-template-areas:
+        'blog blog blog blog blog blog blog'
+        'logo logo blank blank blank phoneno phoneno'
+        'logo logo blank1 menu menu menu menu'
+        'slideshow slideshow slideshow slideshow sidebar sidebar sidebar'
+        'text text text text sidebar sidebar sidebar'
+        'footer footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+#container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
