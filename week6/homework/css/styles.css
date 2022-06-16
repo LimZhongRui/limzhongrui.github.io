@@ -34,9 +34,7 @@
     grid-area: footer;
 }
 
-
-
-.grid-container {
+.container-a {
     display: grid;
     grid-template-areas:
         'logo logo menu menu menu menu'
@@ -49,7 +47,7 @@
     padding: 10px;
 }
 
-.grid-container>div {
+.container-a>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
