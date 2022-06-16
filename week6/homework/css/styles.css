@@ -86,3 +86,30 @@
     padding: 20px 0;
     font-size: 30px;
 }
+
+.container-c {
+    display: grid;
+    grid-template-areas:
+        'logo logo blank blank blank phoneno phoneno'
+        'logo logo blank menu menu menu menu'
+        'slideshow slideshow slideshow slideshow slideshow slideshow slideshow'
+        'logo logo blank blank blank phoneno phoneno'
+        'logo logo blank blank blank phoneno phoneno'
+        'logo logo blank blank blank phoneno phoneno'
+
+        'menu menu menu menu menu menu menu menu'
+        'slideshow slideshow slideshow slideshow slideshow slideshow slideshow slideshow'
+        'feat1 feat1 feat2 feat2 feat3 feat3 feat4 feat4'
+        'text text text text text sidebar sidebar sidebar'
+        'footer footer footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.container-c>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
