@@ -1,0 +1,304 @@
+.logo {
+    grid-area: logo;
+    display: flex;
+}
+
+.logo img {
+    grid-area: logo;
+    width: 30px;
+    padding: 10px;
+}
+
+.home {
+    grid-area: home;
+}
+
+.home a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.home a:hover {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
+
+.services {
+    grid-area: services;
+}
+
+.services a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.services a:hover {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
+
+.price {
+    grid-area: price;
+}
+
+.price a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.price a:hover {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.contact a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
+
+.blank {
+    grid-area: blank;
+}
+
+#container {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#container>div {
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#icon {
+    width: 10%;
+    padding-top: 200px;
+}
+
+#icon img {
+    padding: 20px 0 0 60px;
+}
+
+#topright {
+    background-image: url(../../images/Bg\ Shape@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+}
+
+#menu {
+    display: grid;
+    grid-template-areas:
+        'logo blank blank blank blank blank home services price contact';
+    gap: 10px;
+    padding: 10px;
+}
+
+#top_content {
+    display: flex;
+}
+
+#top_content_left {
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+#top_content_left1 {
+    font-size: 25px;
+}
+
+#top_content_left2 {
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+}
+
+.button {
+    background-image: url(../../images/Rectangle\ 8@2x.png);
+    background-size: cover;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+#top_content_right {
+    width: 50%;
+}
+
+#top_content_right_images {
+    width: 80%;
+}
+
+#images_mouse {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#main {
+    display: flex;
+}
+
+#main_left {
+    width: 50%;
+}
+
+#main_right {
+    width: 50%;
+    background-image: url("../../images/who\ we\ are\ background@2x.png");
+    text-align: left;
+}
+
+#main_right_p1 {
+    color: rgb(0, 136, 255);
+    padding-top: 20px;
+}
+
+#main_right_p2 {
+    color: rgb(120, 120, 120);
+    padding-bottom: 25px;
+}
+
+#services {
+    background-image: url(../../images/background@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services_p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#services_p1 {
+    color: rgb(0, 136, 255);
+    font-size: 20px;
+}
+
+.services_123456 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.services_1 {
+    background-color: white;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px 10px;
+    position: relative;
+    width: 25%;
+}
+
+.services_img {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.services_p {
+    padding-bottom: 50px;
+}
+
+.button1 {
+    background-image: url(../../images/Rectangle\ 8@2x.png);
+    background-size: cover;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+}
+
+#pricing{
+    background-color:#b300ff23;
+}
+
+#priceformain{
+    padding: 0px 100px 50px 100px;
+}
+
+#pricing_p{
+    color:#9600d67a;
+}
+
+.pricing_p{
+    padding: 50px 0;
+    font-size: 40px;
+}
+
+.pricing_p1{
+    padding-bottom: 10px;
+    color: rgb(123, 123, 123);
+}
+
+.pricing_1 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 10px;
+    position: relative;
+    width: 25%;
+}
+
+.pricing_1 h2{
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.button2 {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #1103cb;
+}
+
+.button3 {
+    color: white;
+    background-image: url(../../images/Rectangle\ 8@2x.png);
+    background-size: cover;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
