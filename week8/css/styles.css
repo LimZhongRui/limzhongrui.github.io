@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    max-width: 800px;
+    background-color: rgba(168, 134, 0, 0.382);
+    color: rgb(8, 128, 28);
+}
+
+#form {
+    background-color: rgba(0, 210, 39, 0.376);
+    max-width: 800px;
+}
+
+.box {
+    display: flex;
+}
+
+.box2 {
+    padding: 2px;
+}
+
+#submit {
+    text-align: center;
+}
+
+#thank {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#thank img{
+    
+    width: 200px;
+}
