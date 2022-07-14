@@ -128,7 +128,7 @@ body{
 }
 
 .doctors1 img {
-    width: 450px;
+    max-width: 450px;
 }
 
 .info {
@@ -277,7 +277,57 @@ input{
     width: 200px;
 }
 
-
 #appointment a{
     text-decoration: none;
 }
+
+#Doctor{
+    background-image: url("../images/Appointment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+}
+
+.doctor_div {
+    width: 30%;
+}
+
+#Doctor a{
+    text-decoration: none;
+}
+
+#doctor_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.doctor_left_1{
+    width: 20%;
+}
+
+#doctor_center{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 5%;
+}
+
+#john{
+    font-size: xx-large;
+}
+
+#doctor_map{
+    text-align: left;
+    padding-top: 13%;
+}
+
+#doctor_center h2{
+    color: #2F00B5;
+}
+
+#doctor_center p{
+    color: #FF6D33;
+}
+
