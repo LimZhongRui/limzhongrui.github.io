@@ -68,45 +68,45 @@
     color: rgb(126, 126, 126);
 }
 
-#home div img{
+#home div img {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
 
-#about_us{
+#about_us {
     justify-content: space-between;
     display: flex;
 }
 
-#about_us div{
+#about_us div {
     width: 50%;
 }
 
-#about_us div img{
+#about_us div img {
     position: relative;
     left: -200px;
 }
 
-#about_us div h1{
+#about_us div h1 {
     padding-top: 25%;
     font-size: 300%;
 }
 
-#about_us div h2{
+#about_us div h2 {
     font-size: 300%;
     padding-left: 35%;
     margin-bottom: 0;
 }
 
-#about_us div p{
+#about_us div p {
     font-size: 100%;
     margin-top: 0;
     padding-left: 40%;
     color: rgb(172, 172, 172);
 }
 
-#our_doctors h1{
+#our_doctors h1 {
     font-size: 300%;
     padding-left: 10%
 }
@@ -117,16 +117,18 @@
     padding: 10px 30px;
 }
 
-.doctors1{
+.doctors1 {
     width: 30%;
 }
 
-.doctors1 img{
+.doctors1 img {
     width: 450px;
 }
 
-.button{
-    color: #03A9F4;
+.button {
+    background-color: #03A9F4;
+    color: white;
+    width: 100%;
     border: none;
     padding: 10px 20px;
     text-decoration: none;
@@ -134,9 +136,22 @@
     border-radius: 25px;
 }
 
+.button :hover {
+    background-color: #0307f4;
+    color: white;
+
+}
+
+#location{
+    display: flex;
+}
+
+#location div{
+    width: 50%;
+}
 
 
-
-
-
-
+#location h1 {
+    font-size: 300%;
+    padding-left: 5%
+}
