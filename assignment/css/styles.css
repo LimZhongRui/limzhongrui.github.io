@@ -150,6 +150,10 @@
     width: 50%;
 }
 
+#location div img{
+    max-height: 80%;
+    align-items: center;
+}
 
 #location h1 {
     font-size: 300%;
