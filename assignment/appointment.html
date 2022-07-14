@@ -7,7 +7,54 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="appointment">
+    <a href="index.html">
+        <div class="appointment_logo">
+            <div class="loca_phone">
+                <div><img src="images/appointment_logo.png"></div>
+                <div>
+                    <h1>Medical</h1>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <h1 class="topic">Appointment</h1>
+
+    <form action="thank_you.html">
+        <select id="select">
+            <option>Select Your Doctor</option>
+            <option value="John">Dr. John</option>
+            <option value="David">Dr. David</option>
+            <option value="Paul">Dr. Paul</option>
+            <option value="Lisa">Dr. Lisa</option>
+            <option value="Amy">Dr. Amy</option>
+            <option value="Linda">Dr. Linda</option>
+        </select>
+        <div>
+            <h2>Date</h2>
+            <input type="text" name="date" placeholder="YY/MM/DD" size="50" required>
+        </div>
+        <div>
+            <h2>Time</h2>
+            <input type="text" name="time" placeholder="12.00 a.m." size="50" required>
+        </div>
+        <div class="box">
+            <div class="box2">
+                <h2>Adults</h2>
+                <input type="text" name="adults" size="20">
+            </div>
+            <div class="box2">
+                <h2>Children</h2>
+                <input type="text" name="child" size="20"><br>
+            </div>
+        </div>
+        <br><br>
+        <a class="button_appointment" href="thank_you.html">Submint</a>
+    </form>
+
+    
+
 
 </body>
 
