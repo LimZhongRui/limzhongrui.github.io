@@ -52,7 +52,7 @@
 #home {
     justify-content: space-between;
     display: flex;
-
+    background-color: azure;
 }
 
 #home div {
@@ -73,3 +73,70 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
+
+#about_us{
+    justify-content: space-between;
+    display: flex;
+}
+
+#about_us div{
+    width: 50%;
+}
+
+#about_us div img{
+    position: relative;
+    left: -200px;
+}
+
+#about_us div h1{
+    padding-top: 25%;
+    font-size: 300%;
+}
+
+#about_us div h2{
+    font-size: 300%;
+    padding-left: 35%;
+    margin-bottom: 0;
+}
+
+#about_us div p{
+    font-size: 100%;
+    margin-top: 0;
+    padding-left: 40%;
+    color: rgb(172, 172, 172);
+}
+
+#our_doctors h1{
+    font-size: 300%;
+    padding-left: 10%
+}
+
+.doctors {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.doctors1{
+    width: 30%;
+}
+
+.doctors1 img{
+    width: 450px;
+}
+
+.button{
+    color: #03A9F4;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
