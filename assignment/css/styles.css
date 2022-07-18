@@ -374,6 +374,43 @@ input {
     padding-left: 20%;
 }
 
-#sign_up_button{
+#sign_up_button {
     padding-left: 25%;
 }
+
+.facility {
+    display: flex;
+    text-align: left;
+    padding-top: 2%;
+}
+
+.facility_pic {
+    width: 30%;
+    padding: 2% 0px 0px 5%;
+}
+
+.facility_word {
+    width: 60%;
+    padding-top: 5%;
+}
+
+.facility_h1{
+    color: #2F00B5;
+}
+
+.facility_h3{
+    color: #3000b594;   
+}
+
+#facility_bg{
+    background-image: url("../images/Facility_bg.jpg");
+}
+
+#facility_2_pic{
+    width: 40%;
+}
+
+#facility_2_word{
+    width: 60%;
+    padding-left:5%;
+}   
