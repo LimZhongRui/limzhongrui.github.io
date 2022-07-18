@@ -1,4 +1,4 @@
-body{
+body {
     background-color: azure;
 }
 
@@ -210,40 +210,41 @@ body{
 
 }
 
-#appointment{
+.appointment {
     background-image: url("../images/Appointment.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 
-.appointment_logo{
+.appointment_logo {
     display: flex;
     padding-left: 5%;
     width: 30%;
 }
 
-.topic{
+.topic {
     position: absolute;
     top: 7%;
     left: 44%;
     color: #01579B;
-    
+
 }
 
-#select{
+#select {
     padding: 10px;
-    font-size:medium;
+    font-size: medium;
     border-radius: 20px;
     background-color: #9CDBFF;
 }
 
 
-input{
+input {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-color: #03A9F4;;
+    border-color: #03A9F4;
+    ;
     padding: 3px;
 }
 
@@ -256,7 +257,7 @@ input{
     padding: 2px;
 }
 
-.button_appointment{
+.button_appointment {
     padding: 1.25rem 2.25rem;
     font-size: 0.85rem;
     font-weight: 700;
@@ -272,16 +273,16 @@ input{
     text-align: center;
 }
 
-#thank img{
-    
+#thank img {
+
     width: 200px;
 }
 
-#appointment a{
+.appointment a {
     text-decoration: none;
 }
 
-#Doctor{
+#Doctor {
     background-image: url("../images/Appointment.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -293,20 +294,20 @@ input{
     width: 30%;
 }
 
-#Doctor a{
+#Doctor a {
     text-decoration: none;
 }
 
-#doctor_left{
+#doctor_left {
     display: flex;
     flex-direction: column;
 }
 
-.doctor_left_1{
+.doctor_left_1 {
     width: 20%;
 }
 
-#doctor_center{
+#doctor_center {
     padding-top: 3%;
     display: flex;
     flex-direction: column;
@@ -314,20 +315,65 @@ input{
     padding-left: 5%;
 }
 
-#john{
+#john {
     font-size: xx-large;
 }
 
-#doctor_map{
+#doctor_map {
     text-align: left;
     padding-top: 13%;
 }
 
-#doctor_center h2{
+#doctor_center h2 {
     color: #2F00B5;
 }
 
-#doctor_center p{
+#doctor_center p {
     color: #FF6D33;
 }
 
+
+.appointment h2 {
+    color: #03A9F4;
+}
+
+#sign_up {
+    background-image: url("../images/Appointment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#sign_up a {
+    text-decoration: none;
+}
+
+#sign_top {
+    display: flex;
+    padding: 3px;
+}
+
+.sign_top_logo {
+    width: 20%;
+}
+
+#from {
+    padding-left: 25%;
+    text-align: left;
+}
+
+.sign_up_box {
+    display: flex;
+}
+
+.sign_up_box2 {
+    padding: 10px;
+}
+
+#sign_up_phone {
+    padding-left: 20%;
+}
+
+#sign_up_button{
+    padding-left: 25%;
+}

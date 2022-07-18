@@ -7,19 +7,22 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="appointment">
-    <a href="index.html">
-        <div class="appointment_logo">
-            <div class="loca_phone">
-                <div><img src="images/appointment_logo.png"></div>
-                <div>
-                    <h1>Medical</h1>
+<body class="appointment">
+    <div class="sign_top">
+        <div class="sign_top_logo">
+            <a href="index.html">
+                <div class="appointment_logo">
+                    <div class="loca_phone">
+                        <div><img src="images/appointment_logo.png"></div>
+                        <div>
+                            <h1>Medical</h1>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
-    </a>
-    
-    <h1 class="topic">Appointment</h1>
+        <h1 class="topic">Appointment</h1>
+    </div>
 
     <form action="thank_you.html">
         <select id="select">
@@ -33,7 +36,7 @@
         </select>
         <div>
             <h2>Date</h2>
-            <input type="text" name="date" placeholder="YY/MM/DD" size="50" required>
+            <input type="date" name="date">
         </div>
         <div>
             <h2>Time</h2>
