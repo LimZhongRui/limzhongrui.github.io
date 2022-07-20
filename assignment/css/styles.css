@@ -118,8 +118,11 @@ body {
 #about_us div p {
     font-size: 100%;
     margin-top: 0;
-    padding-left: 40%;
     color: rgb(172, 172, 172);
+}
+
+#padding_0{
+    padding-left: 40%;
 }
 
 #our_doctors h1 {
