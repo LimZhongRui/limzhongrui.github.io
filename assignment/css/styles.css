@@ -127,6 +127,10 @@ body {
     padding-left: 10%
 }
 
+#our_doctors{
+    padding-top: 10%;
+}
+
 .doctors {
     display: flex;
     justify-content: space-between;
@@ -430,6 +434,11 @@ input {
     bottom: 20px;
     right: 10px;
     display: none;
+}
+
+.no_underline{
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 600px) {
