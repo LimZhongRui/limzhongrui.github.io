@@ -1,35 +1,10 @@
-body {
+.body_color {
     background-color: azure;
-    margin: 0;
 }
 
-
-
-
-#menu {
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    justify-content: space-between;
-    display: flex;
-    background-color: #B3E5FC;
-}
-
-#menu_logo {
-    width: 20%;
-}
-
-#menu_logo a {
-    text-decoration: none;
-}
-
-#menu_logo a div {
-    display: flex;
-    padding: 3px;
-}
-
-#menu_logo a div h3 {
-    padding: 5px;
+.container_index {
+    margin: auto;
+    max-width: 1200px;
 }
 
 #menu_bar {
@@ -66,16 +41,20 @@ body {
 #home {
     justify-content: space-between;
     display: flex;
-
+    background-image: url("../images/bg_menu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
 #home div {
-    width: 50%;
     padding: 3%
 }
 
+
 #home div div h1 {
     font-size: 300%;
+    padding-top: 8%;
 }
 
 #home div div h2 {
@@ -94,13 +73,14 @@ body {
 }
 
 #about_us_left,
-#about_us_right {
+#about_us_right,
+.home_left_right {
     width: 50%;
 }
 
 #about_us div img {
     position: relative;
-    left: -200px;
+    left: -75px;
     max-width: 500px;
 }
 
@@ -121,7 +101,7 @@ body {
     color: rgb(172, 172, 172);
 }
 
-#padding_0{
+#padding_0 {
     padding-left: 40%;
 }
 
@@ -130,7 +110,7 @@ body {
     padding-left: 10%
 }
 
-#our_doctors{
+#our_doctors {
     padding-top: 10%;
 }
 
@@ -241,9 +221,7 @@ body {
 }
 
 .topic {
-    position: absolute;
-    top: 7%;
-    left: 44%;
+
     color: #01579B;
 
 }
@@ -267,11 +245,11 @@ input {
 
 .box {
     display: flex;
-    justify-content: center;
 }
 
 .box2 {
     padding: 2px;
+    width: 50%;
 }
 
 .button_appointment {
@@ -283,6 +261,26 @@ input {
     border-radius: 10rem;
     background-color: #03A9F4;
     text-decoration: none;
+    color: white;
+}
+
+.button_appointment:hover {
+    background-color: #5703f4b0;
+    color: #000000;
+}
+
+.input_container {
+    display: flex;
+}
+
+.input_box {
+    width: 33%;
+}
+
+#appointment_date,
+.appointment_time,
+.box {
+    width: 100%;
 }
 
 #thank {
@@ -381,15 +379,26 @@ input {
 
 .sign_up_box {
     display: flex;
+    padding-top: 5%;
+}
+
+#sign_up_input_box {
+    width: 80%;
+    text-align: left;
+}
+
+#input_box_20 {
+    width: 20%;
 }
 
 .sign_up_box2 {
-    padding: 10px;
+    width: 40%;
+    padding-right: 2%;
+}
+.sign_up_box3 {
+    width: 100%;
 }
 
-#sign_up_phone {
-    padding-left: 20%;
-}
 
 #sign_up_button {
     padding-left: 25%;
@@ -403,7 +412,7 @@ input {
 
 .facility_pic {
     width: 30%;
-    padding: 2% 0px 0px 5%;
+    padding: 2% 0px 0px 0%;
 }
 
 .facility_word {
@@ -416,7 +425,7 @@ input {
 }
 
 .facility_h3 {
-    color: #3000b594;
+    color: #FF6D33;
 }
 
 #facility_bg {
@@ -436,15 +445,15 @@ input {
     position: fixed;
     bottom: 20px;
     right: 10px;
-    display: none;
+    max-width: 150px;
 }
 
-.no_underline{
+.no_underline {
     text-decoration: none;
     color: black;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     #menu {
         display: block;
     }
@@ -517,7 +526,7 @@ input {
     }
 
     #back_to_top {
-        display: block;
+        max-width: 85px;
     }
 
     #our_doctors {
@@ -556,12 +565,6 @@ input {
         width: 100%;
     }
 
-    .topic {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-
     .box {
         display: block;
     }
@@ -593,14 +596,13 @@ input {
 
     .facility_pic {
         max-width: 300px;
-        padding-left: 8%;
+        padding-left: 10%;
     }
 
     #from {
         padding-left: 0%;
     }
 
-    #sign_up_phone,
     #sign_up_button {
         padding-left: 10px;
     }

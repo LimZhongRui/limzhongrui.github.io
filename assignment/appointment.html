@@ -5,59 +5,101 @@
     <title>Appointment</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="appointment">
-    <div class="sign_top">
-        <div class="sign_top_logo">
-            <a href="index.html">
-                <div class="appointment_logo">
-                    <div class="loca_phone">
-                        <div><img src="images/appointment_logo.png"></div>
-                        <div>
-                            <h1>Medical</h1>
+<body class="appointment body_color">
+    <div class="container_index">
+        <nav class="navbar navbar-expand-md" id="menu">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.png" alt="" width="50" height="50" class="d-inline-block ">
+                            <p class="d-inline-block ">Medical</p>
+                        </a>
+                    </div>
+                </nav>
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="facility.html">Our Facility</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="appointment.html">Appointment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="sign_up.html"><img src="images/icon.png"
+                                            width="30" height="30"></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </nav>
+
+        <h1 class="topic">Appointment</h1>
+
+        <div class="input_container">
+            <div class="input_box"></div>
+            <div class="input_box">
+                <form action="thank_you.html">
+                    <select id="select">
+                        <option>Select Your Doctor</option>
+                        <option value="John">Dr. John</option>
+                        <option value="David">Dr. David</option>
+                        <option value="Paul">Dr. Paul</option>
+                        <option value="Lisa">Dr. Lisa</option>
+                        <option value="Amy">Dr. Amy</option>
+                        <option value="Linda">Dr. Linda</option>
+                    </select>
+                    <div>
+                        <h2>Date</h2>
+                        <input type="date" name="date" id="appointment_date">
+                    </div>
+                    <div>
+                        <h2>Time</h2>
+                        <input type="text" name="time" placeholder="12.00 a.m." class="appointment_time" required>
+                    </div>
+                    <div class="box">
+                        <div class="box2">
+                            <h2>Adults</h2>
+                            <input type="text" name="adults">
+                        </div>
+                        <div class="box2">
+                            <h2>Children</h2>
+                            <input type="text" name="child"><br>
                         </div>
                     </div>
-                </div>
-            </a>
+                    <br><br>
+                    <a class="button_appointment" href="thank_you.html">Submint</a>
+                </form>
+            </div>
+            <div class="input_box"></div>
         </div>
-        <h1 class="topic">Appointment</h1>
+
+
     </div>
 
-    <form action="thank_you.html">
-        <select id="select">
-            <option>Select Your Doctor</option>
-            <option value="John">Dr. John</option>
-            <option value="David">Dr. David</option>
-            <option value="Paul">Dr. Paul</option>
-            <option value="Lisa">Dr. Lisa</option>
-            <option value="Amy">Dr. Amy</option>
-            <option value="Linda">Dr. Linda</option>
-        </select>
-        <div>
-            <h2>Date</h2>
-            <input type="date" name="date">
-        </div>
-        <div>
-            <h2>Time</h2>
-            <input type="text" name="time" placeholder="12.00 a.m." size="50" required>
-        </div>
-        <div class="box">
-            <div class="box2">
-                <h2>Adults</h2>
-                <input type="text" name="adults" size="20">
-            </div>
-            <div class="box2">
-                <h2>Children</h2>
-                <input type="text" name="child" size="20"><br>
-            </div>
-        </div>
-        <br><br>
-        <a class="button_appointment" href="thank_you.html">Submint</a>
-    </form>
 
-    
+
 
 
 </body>

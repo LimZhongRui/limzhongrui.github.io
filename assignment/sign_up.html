@@ -5,61 +5,98 @@
     <title>Sign Up</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="appointment">
-    <div class="sign_top">
-        <div class="sign_top_logo">
-            <a href="index.html">
-                <div class="appointment_logo">
-                    <div class="loca_phone">
-                        <div><img src="images/appointment_logo.png"></div>
-                        <div>
-                            <h1>Medical</h1>
+<body class="appointment body_color">
+    <div class="container_index">
+        <nav class="navbar navbar-expand-md" id="menu">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.png" alt="" width="50" height="50" class="d-inline-block ">
+                            <p class="d-inline-block ">Medical</p>
+                        </a>
+                    </div>
+                </nav>
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="facility.html">Our Facility</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="appointment.html">Appointment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex navbar-brand" href="sign_up.html"><img src="images/icon.png"
+                                            width="30" height="30"></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <h1 class="topic">Sign Up</h1>
+
+        <div class="input_container">
+            <div class="input_box" id="input_box_20"></div>
+            <div id="sign_up_input_box">
+                <form action="thank_you.html">
+                    <div class="sign_up_box">
+                        <div class="sign_up_box2">
+                            <h2>Name *</h2>
+                            <input type="text" name="name" class="sign_up_box3" required>
+                        </div>
+                        <div class="sign_up_box2">
+                            <h2>NRIC/Passport no. * </h2>
+                            <input type="text" name="adults" class="sign_up_box3" required>
                         </div>
                     </div>
-                </div>
-            </a>
+                    <div class="sign_up_box">
+                        <div class="sign_up_box2">
+                            <h2>Date On Birth</h2>
+                            <input type="date" name="date" class="sign_up_box3">
+                        </div>
+                        <div class="sign_up_box2" id="sign_up_phone">
+                            <h2>Phone number</h2>
+                            <input type="text" name="phone" placeholder="+12 345 678 90" class="sign_up_box3">
+                        </div>
+                    </div>
+                    <div class="sign_up_box">
+                        <div class="sign_up_box2">
+                            <h2>Email </h2>
+                            <input type="text" name="email" placeholder="example@gmail.com" class="sign_up_box3">
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="sign_up_button">
+                        <a type="submit" class="button_appointment" href="thank_you.html">Submint</a>
+                    </div>
+                </form>
+            </div>
         </div>
-        <h1 class="topic">Sign Up</h1>
+
+
     </div>
 
-    <div id="from">
-        <form action="thank_you.html">
-            <div class="sign_up_box">
-                <div class="sign_up_box2">
-                    <h2>Name *</h2>
-                    <input type="text" name="name" size="50" required>
-                </div>
-                <div class="sign_up_box2">
-                    <h2>NRIC/Passport no. * </h2>
-                    <input type="text" name="adults" size="50" required>
-                </div>
-            </div>
-            <div class="sign_up_box">
-                <div class="sign_up_box2">
-                    <h2>Date On Birth</h2>
-                    <input type="date" name="date">
-                </div>
-                <div class="sign_up_box2" id="sign_up_phone">
-                    <h2>What is your phone number?</h2>
-                    <input type="text" name="phone" size="50" placeholder="+12 345 678 90">
-                </div>
-            </div>
-            <div class="sign_up_box">
-                <div class="sign_up_box2">
-                    <h2>What it your email? </h2>
-                    <input type="text" name="email" size="50" placeholder="example@gmail.com">
-                </div>
-            </div>
-            <br><br>
-            <div id="sign_up_button">
-                <a type="submit" class="button_appointment" href="thank_you.html">Submint</a>
-            </div>
-
-        </form>
-    </div>
 
 
 </body>
