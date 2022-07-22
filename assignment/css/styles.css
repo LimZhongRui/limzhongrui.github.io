@@ -152,10 +152,14 @@
     border-radius: 25px;
 }
 
-.button :hover {
-    background-color: #0307f4;
-    color: white;
+.button:hover {
+    background-color: #5703f4b0;
+    color: #000000;
+}
 
+.margin_change{
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 #location {
@@ -302,12 +306,14 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+
+}
+
+#Doctor_box {
     display: flex;
 }
 
-.doctor_div {
-    width: 30%;
-}
+
 
 #Doctor a {
     text-decoration: none;
@@ -330,6 +336,11 @@ input {
     padding-left: 5%;
 }
 
+#doctor_img {
+    max-width: 400px;
+    padding-top: 15%;
+}
+
 #john {
     font-size: xx-large;
 }
@@ -339,11 +350,11 @@ input {
     padding-top: 13%;
 }
 
-#doctor_center h2 {
+#doctor_center h1 {
     color: #2F00B5;
 }
 
-#doctor_center p {
+#doctor_center h3 {
     color: #FF6D33;
 }
 
@@ -556,6 +567,7 @@ input {
 
     #doctor_img {
         max-width: 300px;
+        padding-top: 0;
     }
 
     .doctor_div {
@@ -563,8 +575,8 @@ input {
     }
 
     #doctor_map {
-        text-align: center;
-        background-color: #b3e5fc53;
+        display: none;
+
     }
 
     .sign_top_logo {
@@ -613,7 +625,16 @@ input {
         padding-left: 10px;
     }
 
-    .sign_up_box2{
+    .sign_up_box2 {
         width: 80%;
+    }
+
+    #Doctor_box,
+    #doctor_left {
+        display: block;
+    }
+
+    #doctor_center{
+        padding-bottom: 5%;
     }
 }
