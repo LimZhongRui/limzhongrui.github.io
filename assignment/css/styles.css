@@ -385,6 +385,7 @@ input {
 #sign_up_input_box {
     width: 80%;
     text-align: left;
+
 }
 
 #input_box_20 {
@@ -395,10 +396,15 @@ input {
     width: 40%;
     padding-right: 2%;
 }
+
 .sign_up_box3 {
     width: 100%;
 }
 
+
+.contact_email {
+    width: 80%;
+}
 
 #sign_up_button {
     padding-left: 25%;
@@ -605,5 +611,9 @@ input {
 
     #sign_up_button {
         padding-left: 10px;
+    }
+
+    .sign_up_box2{
+        width: 80%;
     }
 }
