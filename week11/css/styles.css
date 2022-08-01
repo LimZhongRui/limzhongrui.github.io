@@ -1,0 +1,19 @@
+.bg_image_1{
+    background-image: url("images/pic1.jpg");
+    background-repeat: no-repeat;
+}
+
+.bg_image_2{
+    background-image: url("images/pic2.jpg");
+    background-repeat: no-repeat;
+}
+
+.word_page2{
+    width: fit-content;
+}
+
+
+.footer_no_color{
+    color: white;
+    text-decoration: none;
+}
