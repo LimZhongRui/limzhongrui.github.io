@@ -460,7 +460,7 @@ html {
 
 
 /*H1N1 page 1*/
-.bg-image-h1n1{
+.bg-image-h1n1 {
     background-image: url(../img/H1N1_main.jpg);
     width: 100%;
     height: 100%;
@@ -480,3 +480,62 @@ html {
 .color-deepblue {
     color: #161D26;
 }
+
+
+/*H1N1 page 2*/
+.bg-image-h1n1-page2 {
+    background-image: url(../img/h1n1-bg-p2a.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.icon-box img {
+    max-width: 80px;
+    float: left;
+    color: #3fbbc0;
+}
+
+.bx {
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px
+}
+
+.h1n1_Hemagglutinin {
+    color: #4E84B8;
+}
+
+.h1n1_Neuraminidase {
+    color: #934155;
+}
+
+.h1n1_M2lonChannel {
+    color: #5657A0;
+}
+
+.h1n1_RNP {
+    color: #AEDBAD;
+}
+
+.about .video-box {
+    max-width: 100%;
+}
+
+.h1n1_color_tablist{
+    color: #fff700;
+}
+
