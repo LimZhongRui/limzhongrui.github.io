@@ -21,6 +21,10 @@
     font-weight: bolder;
 }
 
+.appointment_pointer {
+    cursor: pointer;
+}
+
 #menu_bar a:hover {
     color: #01579B;
 }
@@ -51,6 +55,17 @@
     padding: 3%
 }
 
+.container {
+    width: 50%;
+}
+
+#home_right img {
+    width: 100%;
+}
+
+#clinic_word {
+    padding-left: 3%;
+}
 
 #home div div h1 {
     font-size: 300%;
@@ -81,7 +96,7 @@
 #about_us div img {
     position: relative;
     left: -75px;
-    max-width: 500px;
+    width: 100%;
 }
 
 #about_us div h1 {
@@ -96,7 +111,7 @@
 }
 
 #about_us div p {
-    font-size: 100%;
+    font-size: 150%;
     margin-top: 0;
     color: rgb(172, 172, 172);
 }
@@ -125,7 +140,7 @@
 }
 
 .doctors1 img {
-    max-width: 350px;
+    width: 100%;
 }
 
 .info {
@@ -157,7 +172,7 @@
     color: #000000;
 }
 
-.margin_change{
+.margin_change {
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -181,7 +196,7 @@
 }
 
 #map {
-    max-height: 80%;
+    width: 100%;
     align-items: center;
     padding-left: 5%;
 }
@@ -528,7 +543,7 @@ input {
     }
 
     .doctors1 img {
-        max-width: 300px;
+        max-width: 100%;
     }
 
     #location {
@@ -587,9 +602,7 @@ input {
         display: block;
     }
 
-    .button_appointment {
-        padding: 1.25rem 6.25rem;
-    }
+    
 
     .appointment,
     #facility_bg {
@@ -634,7 +647,7 @@ input {
         display: block;
     }
 
-    #doctor_center{
+    #doctor_center {
         padding-bottom: 5%;
     }
 }
